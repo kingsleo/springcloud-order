@@ -23,7 +23,7 @@ import java.math.BigDecimal;
 public class OrderDetail {
 
     @Id
-    private Long detailId;
+    private String detailId;
 
     private String orderId;
 

@@ -31,7 +31,7 @@ public class OrderDetailRepositoryTest extends OrderApplicationTests{
     @Test
     public void testSave() {
         OrderDetail orderDetail = new OrderDetail();
-        orderDetail.setDetailId(1L);
+        orderDetail.setDetailId("222222");
         orderDetail.setOrderId("123456");
         orderDetail.setProductIcon("http://ww.xom");
         orderDetail.setProductName("测试产品");

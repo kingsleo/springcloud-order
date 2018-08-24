@@ -34,7 +34,7 @@ public class OrderForm2OrderDTO {
         orderDTO.setBuyerAddress(orderForm.getAddress());
         orderDTO.setBuyerName(orderForm.getName());
         orderDTO.setBuyerOpenid(orderForm.getOpenid());
-        orderDTO.setBuyerOpenid(orderForm.getOpenid());
+        orderDTO.setBuyerPhone(orderForm.getPhone());
 
         List<OrderDetail> orderDetailList = new ArrayList<>();
         try {
