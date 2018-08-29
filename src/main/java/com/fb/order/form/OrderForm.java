@@ -2,9 +2,7 @@ package com.fb.order.form;
 
 import lombok.Data;
 import lombok.Getter;
-
-import javax.validation.constraints.NotEmpty;
-
+import org.hibernate.validator.constraints.NotEmpty;
 /**
  * java类简单作用描述
  *
